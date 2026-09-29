@@ -5,13 +5,21 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="css/bootstrap.css" rel="stylesheet" />
+        <style>
+            .header-foto {
+                background-image: url(images/blue_wallpaper.png);
+               background-size: cover, cover; 
+               background-position: center center, center center;
+               background-repeat: no-repeat, no-repeat;
+            }
+        </style>
     </head>
     <!-- <body class="pt-5"> -->
         <body data-bs-theme="dark" style="padding-top: 90px;">
     <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase">
         <div class="container">
             <a class="navbar-brand active" href="#">
-                <img src="images/Mayhem.png" alt="logo lady gaga" height="70" class="rounded-circle" />
+                <img src="images/artpop.png" alt="logo lady gaga" height="70" class="rounded-circle" />
             </a>
             <button
                 class="navbar-toggler"
@@ -45,7 +53,30 @@
             </div>
         </div>
     </nav>
-
+    <!--<header class="text-white py-5" style="background: linear-gradient(120deg, #0f172a 0%, #1e3a5f 55%, #0d6fed 130%);"> -->
+  <!--<header class="text-white py-5" style="background: #a6d9ed;background: linear-gradient(90deg,rgba(166, 217, 237, 1) 8%, rgba(52, 115, 186, 1) 50%, rgba(50, 68, 168, 1) 90%);"> -->
+     <header class="text-white py-5 header-foto">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+           <p class="text-uppercase small fw-semibold mb-2 opacity-75">Etec Prof. Milton Gazzetti - Presidente Venceslau</p>
+           <h1 class="display-4 fw-bold">Informática para Internet</h1>
+           <p class="lead mb-0">
+            Curso técnico gratuito integrado ao Ensino Médio; Em 3 anos você sai criando sites,aplicativos e
+            sistemas - do primeiro html ao projeto no ar
+        </p>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+        <img
+            src="images/artpop.png"
+            alt="simbolo pegado do pinterest da Lady Gaga"
+            class="img-fluid rounded-circle"
+            style="max-height: 260px; border-radius: 50%;"   
+        />
+    </div>
+    </div>
+    </div>
+    </header>
         <h1 class="text-primary">Mtec Informática para Internet</h1>
         <p>Página principal do Website</p>
         <script src="js/bootstrap.bundle.min.js"></script>
